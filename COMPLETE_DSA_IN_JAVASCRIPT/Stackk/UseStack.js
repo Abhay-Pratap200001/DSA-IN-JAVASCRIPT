@@ -2,18 +2,18 @@ import { Stack } from "./Stack.js";
 import PromptSync from "prompt-sync";
 
 const stack = new Stack();
-// stack.push(11)
-// stack.push(20)
-// stack.push(21)
-// console.log(stack.peek());
-// console.log(stack.size());
-// console.log(stack.isEmpty());
-// stack.pop()
-// stack.pop()
-// stack.pop()
-// console.log(stack.peek());
-// console.log(stack.size());
-// console.log(stack.isEmpty());
+stack.push(11)
+stack.push(20)
+stack.push(21)
+console.log(stack.peek());
+console.log(stack.size());
+console.log(stack.isEmpty());
+stack.pop()
+stack.pop()
+stack.pop()
+console.log(stack.peek());
+console.log(stack.size());
+console.log(stack.isEmpty());
 
 /* <<--------------------------------------------------------------------------------------------------------->> */
 
